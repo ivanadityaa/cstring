@@ -1,0 +1,10 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main(){
+	char firstName[50] = "Putri ";
+	char lastName[50] = "Amelia";
+	char *fullName = strcat(firstName, lastName);
+	cout<<fullName;
+}
